@@ -184,4 +184,7 @@ $RECYCLE.BIN/
 # vscode
 .vscode
 
+# jupyter notebook
+.ipynb
+
 # End of https://www.gitignore.io/api/c++,linux,python,windows
