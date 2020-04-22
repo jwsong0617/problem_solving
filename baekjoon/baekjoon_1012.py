@@ -1,7 +1,7 @@
 import sys
 from collections import deque
 
-def dfs(y, x):
+def bfs(y, x):
     worm = 1
     Q.append((y, x))
     visited[y][x] = 1
@@ -34,5 +34,5 @@ for i in range(T):
     for y in range(N):
         for x in range(M):
             if(board[y][x] != 0 and visited[y][x] == 0):
-                dfs(y,x)
+                bfs(y,x)
     print(len(worms))
